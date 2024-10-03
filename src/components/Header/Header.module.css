@@ -11,21 +11,25 @@
     display: flex;
     align-items: center;
 }
-  
+
 .menuButton, .iconButton {
     background: none;
     border: none;
-    font-size: 24px;
+    font-size: 25px;
     cursor: pointer;
-    margin-right: 15px;
+    margin-right: 20px;
+    padding: 5px;
+    color: #532567;
+    border: 1px solid #532567;
+    border-radius: 8px;
 }
   
+.pesquisa {
+    border: 2px solid #532567;
+}
+
 .logo {
-    height: 30px;
-}
-  
-.fonte {
-    cursor: pointer;
+    height: 40px;
 }
 
 @media (min-width: 769px) {
