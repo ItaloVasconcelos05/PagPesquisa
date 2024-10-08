@@ -1,14 +1,26 @@
-import Header from './components/Header';
+import Home from './pages/Home';
+import Login from './pages/Login';
+import Pesquisa from './pages/Pesquisa';
+
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from 'react-router-dom'
 
 
-
-function App() {
-
+const App = () => {
   return (
-    <div className="App">
-      <Header />
-    </div>
-  );
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home/>}></Route>
+          <Route path="/login" element={<Login/>}></Route>
+          <Route path="/pesquisa" element={<Pesquisa/>}></Route>
+        </Routes>
+      </Router>
+    </>
+  )
 }
 
-export default App;
+export default App

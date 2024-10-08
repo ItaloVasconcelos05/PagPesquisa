@@ -7,7 +7,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
   
-.headerLeft, .headerRight {
+.headerPosition{
     display: flex;
     align-items: center;
 }
@@ -26,10 +26,13 @@
   
 .pesquisa {
     border: 2px solid #532567;
+    border-radius: 5px;
+    padding: 10px 200px 10px 15px;
 }
 
 .logo {
     height: 40px;
+    border-radius: 500px;
 }
 
 @media (min-width: 769px) {
