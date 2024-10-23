@@ -1,0 +1,10 @@
+.divGeral{
+    display: flex;
+    gap: 30px;
+    padding: 55px;
+}
+@media (max-width: 768px) {
+    .divGeral {
+      width: 100%;
+    }
+  }

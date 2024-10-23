@@ -1,0 +1,55 @@
+.left-sidebar {
+    display: block;
+    flex-wrap: wrap;
+    width: 275px;
+    padding: 20px;
+  }
+  
+  .ranking {
+    background-color: white;
+    margin-bottom: 50px;
+    margin-top: -20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .ranking h2 {
+    font-size: 20px;
+    margin-top: -5px;
+    margin-bottom: 30px;
+  }
+
+  .ranking-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+  
+  .ranking-item img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .ranking-item .position {
+    display: block;
+    margin-left: auto;
+    color: #8e44ad;
+  }
+  
+  .view-all {
+    background: none;
+    border: none;
+    color: #8e44ad;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .left-sidebar {
+      width: 100%;
+    }
+  }
